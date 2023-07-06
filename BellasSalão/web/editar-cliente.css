@@ -1,0 +1,95 @@
+ .profile-form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+        .profile-form {
+    width: 80vw;
+    max-width: 480px;
+    padding: 20px;
+    background-color: #ffbae4;
+    border-radius: 8px;
+    margin-bottom: 350px;
+    margin-left: 50vw;
+    transform: translateX(-50%);
+}
+
+    
+        .profile-form .form-group {
+            margin-bottom: 35px;
+        }
+    
+        .profile-form label {
+            font-weight: bold;
+        }
+    
+        .profile-form input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    
+        .profile-form button {
+            width: 100%;
+            padding: 8px;
+            background-color: #020302b6;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
+      
+    
+        .head-title .left {
+            text-align: left;
+        }
+    
+        .head-title h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .head-title {
+    text-align: center;
+}
+
+.title-container {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    position: relative;
+  }
+
+  .form-group input[type="password"] {
+    padding-right: 40px;
+  }
+
+  .form-group .toggle-btn {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .btn {
+  background-color: #7d74ff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px; /* Valor do raio das bordas arredondadas */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6c63e5;
+}
+
+  
